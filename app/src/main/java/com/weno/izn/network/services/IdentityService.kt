@@ -12,7 +12,7 @@ import retrofit2.Response
 import retrofit2.http.*
 
 interface IdentityService {
-
+//mdzz
     @Multipart
     @POST("upload")
     fun uploadPhoto(
